@@ -52,12 +52,12 @@ func (c *Cache) getObject(key string, obj interface{}, ttl int, f LoadFunc) erro
 
 ### Installation
 
-`go get -u github.com/seaguest/cache`
+`go get -u github.com/Moquan123/User_cache`
 
 
 ### Tips
 
-```github.com/seaguest/deepcopy```is adopted for deepcopy, returned value is deepcopied to avoid dirty data.
+```github.com/Moquan123/User_cache```is adopted for deepcopy, returned value is deepcopied to avoid dirty data.
 please implement DeepCopy interface if you encounter deepcopy performance trouble.
 
 ```bigquery
