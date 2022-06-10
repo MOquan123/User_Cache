@@ -54,19 +54,6 @@ func (c *Cache) getObject(key string, obj interface{}, ttl int, f LoadFunc) erro
 
 `go get -u github.com/Moquan123/User_cache`
 
-
-### Tips
-
-```github.com/Moquan123/User_cache```is adopted for deepcopy, returned value is deepcopied to avoid dirty data.
-please implement DeepCopy interface if you encounter deepcopy performance trouble.
-
-```bigquery
-func (p *TestStruct) DeepCopy() interface{} {
-	c := *p
-	return &c
-}
-```
-
 ### Usage
 
 ``` bigquery
