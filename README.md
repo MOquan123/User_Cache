@@ -1,4 +1,4 @@
-# cache
+# User_cache
 A lightweight high-performance distributed cache, a cache-aside pattern implementation built on top of in-memory + redis.
 
 Cache contains one global redis + multiple in-memory instances, data can't be synced among instances, but cache.Delete(key) can delete key from redis + all memory instances, which can be used to make data consistent among instances.
